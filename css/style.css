@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+}
+
+
+.hilite {
+  color: darkred;
+}
+
+.bigblue {
+  color: blue;
+  font-weight: bold;
+  font-size: 35px;
+}
+

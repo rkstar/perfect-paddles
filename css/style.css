@@ -1,15 +1,28 @@
-h1 {
+body {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.page-title {
   color: red;
 }
 
-
-.hilite {
-  color: darkred;
+.page-title .page-title-enjoy {
+  color: darkturquoise;
 }
 
-.bigblue {
+.page-title-enjoy {
+  text-transform: uppercase;
   color: blue;
-  font-weight: bold;
-  font-size: 35px;
 }
 
+.cursive {
+  font-family: 'Zapfino'
+}
+
+.cursive.big {
+  font-size: 50px;
+}

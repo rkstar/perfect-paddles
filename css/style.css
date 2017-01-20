@@ -19,15 +19,23 @@ header img {
 }
 
 nav ul {
+  padding: 1em 0;
+  margin: 0 auto;
   list-style: none;
-  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
 }
 
 nav ul li {
   display: inline-block;
-  list-style-type: none;
+  font-size: 1em;
+}
+
+nav ul li a {
   color: white;
-  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .banner {

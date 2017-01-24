@@ -23,9 +23,9 @@ nav ul {
   padding: 1em 0;
   margin: 0 auto;
   list-style: none;
-  /*display: flex;
-  justify-content: space-between;*/
-  /*max-width: 70%;*/
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
 }
 
 nav ul li {

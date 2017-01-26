@@ -98,9 +98,13 @@ footer {
   padding: 3em 2em;
 }
 
-section p {
+p {
   line-height: 2em;
   margin-bottom: 2em;
+}
+
+a {
+  color: #e2574c;
 }
 
 .banner {
@@ -186,11 +190,18 @@ a.btn-signup {
   height: 40vh;
 }
 
+footer p {
+  margin-bottom: 1.5em;
+}
+
+footer a {
+  color: white;
+}
+
 footer nav ul {
   justify-content: center;
 }
 
 footer ul li {
   margin: .5em;
-  color: white;
 }

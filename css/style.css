@@ -34,6 +34,7 @@
  *
  **/
 body {
+  font-family: arial;
   font-size: 16px;
   line-height: 1.25em;
   box-sizing: border-box;
@@ -45,6 +46,13 @@ img {
 
 h1, h2 {
   text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: "Pacifico";
+  color: #666;
+  margin: 1em auto;
 }
 
 header {
@@ -70,6 +78,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   font-size: 1em;
+  font-weight: bold;
 }
 
 nav ul li a {
@@ -87,6 +96,11 @@ footer {
   color: white;
   text-align: center;
   padding: 3em 2em;
+}
+
+section p {
+  line-height: 2em;
+  margin-bottom: 2em;
 }
 
 .banner {
@@ -130,6 +144,7 @@ footer {
   background-color: rgba(0, 0, 0, .5);
   text-align: center;
   margin: 1.5em auto;
+  margin-bottom: 3em;
   padding: 1em;
   width: 75%;
 }
@@ -139,6 +154,7 @@ a.btn-signup {
   border-radius: 2em;
   border: 1px solid #e2574c;
   text-transform: uppercase;
+  text-decoration: none;
   color: white;
   font-size: 1.15em;
   padding: .75em;

@@ -1,3 +1,38 @@
+@font-face {
+  font-family: 'Karla Bold';
+  src: url('fonts/Karla-Bold.ttf');
+}
+.karla-bold { font-family: 'Karla Bold'; }
+
+@font-face {
+  font-family: 'Karla Bold Italic';
+  src: url('fonts/Karla-BoldItalic.ttf');
+}
+.karla-bold-italic { font-family: 'Karla Bold Italic'; }
+
+@font-face {
+  font-family: 'Karla Italic';
+  src: url('fonts/Karla-Italic.ttf');
+}
+.karla-italic { font-family: 'Karla Italic'; }
+
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Regular.ttf');
+}
+.karla { font-family: 'Karla'; }
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('fonts/Pacifico.ttf');
+}
+.pacifico { font-family: 'Pacifico'; }
+
+
+/**
+ * start page styling
+ *
+ **/
 body {
   font-size: 16px;
   line-height: 1.25em;

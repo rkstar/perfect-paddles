@@ -274,6 +274,14 @@ footer ul li {
      margin: 0 .5em;
    }
 
+   footer nav ul li {
+    margin: .25em .5em;
+   }
+
+   footer nav ul li a {
+    text-transform: none;
+   }
+
    .banner p {
      display: inline-block;
      width: auto;
@@ -324,6 +332,7 @@ footer ul li {
 
    .social-link-words {
      display: inline;
+     padding-left: 0.35em;
    }
  }
 

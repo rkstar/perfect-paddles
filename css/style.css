@@ -264,9 +264,13 @@ footer ul li {
    }
 
    nav ul {
-     width: 100%;
-     max-width: 60%;
+     width: auto;
+     max-width: auto;
      margin: 0;
+   }
+
+   nav ul li {
+     margin: 0 .5em;
    }
 
    .banner p {
@@ -325,7 +329,7 @@ footer ul li {
  /**
   * desktop breakpoint: 1024px
   **/
-  @media (min-width: 1024px){
+  @media (min-width: 1024px){    
     .about p {
       max-width: 40%;
       margin: 1.5em auto;

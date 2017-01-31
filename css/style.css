@@ -231,3 +231,94 @@ footer nav ul {
 footer ul li {
   margin: .5em;
 }
+
+.social-link-words {
+  display: none;
+}
+
+
+/**
+ * tablet breakpoint: 720px
+ **/
+ @media (min-width: 720px){
+   header {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   }
+
+   header img {
+     max-width: 40%;
+   }
+
+   nav {
+     display: flex;
+     flex-grow: 1;
+     flex-shrink: 0;
+     flex-basis: 0;
+     justify-content: flex-end;
+   }
+
+   nav ul {
+     width: 100%;
+     max-width: 60%;
+     margin: 0;
+   }
+
+   .promo-images img {
+     width: 30%;
+   }
+
+   .rentals {
+     display: flex;
+     flex-grow: 1;
+     flex-shrink: 0;
+     flex-basis: 0;
+     flex-flow: row wrap;
+     justify-content: space-between;
+   }
+
+   .rentals h2 {
+     width: 100%;
+   }
+
+   .rentals article, .rentals table {
+     width: 49%;
+   }
+
+   footer {
+     display: flex;
+     flex-grow: 1;
+     flex-shrink: 0;
+     flex-basis: 0;
+     flex-flow: row wrap;
+     justify-content: space-between;
+   }
+
+   footer article {
+     text-align: left;
+     max-width: 40%;
+   }
+
+   footer nav ul {
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: auto;
+   }
+
+   .social-link-words {
+     display: inline;
+   }
+ }
+
+ /**
+  * desktop breakpoint: 1024px
+  **/
+  @media (min-width: 1024px){
+
+  }

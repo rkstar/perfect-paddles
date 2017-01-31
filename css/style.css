@@ -185,22 +185,22 @@ a.btn-signup {
   box-shadow: 1px 0px 5px 1px #666;
 }
 
+table, th, td {
+  border: 1px solid #b2b2b2;
+}
 .rentals table {
   width: 100%;
-  border: 1px solid black;
 }
 .rentals th {
   background: #cecece;
   text-align: center;
   font-weight: bold;
   padding: .5em 0;
-  border: 1px solid black;
 }
 .rentals td {
   width: 33%;
   text-align: center;
   padding: .5em;
-  border: 1px solid black;
 }
 .rentals td:first-child {
   text-align: left;
@@ -269,6 +269,12 @@ footer ul li {
      margin: 0;
    }
 
+   .banner p {
+     display: inline-block;
+     width: auto;
+     padding: .5em;
+   }
+
    .promo-images img {
      width: 30%;
    }
@@ -320,5 +326,12 @@ footer ul li {
   * desktop breakpoint: 1024px
   **/
   @media (min-width: 1024px){
+    .about p {
+      max-width: 40%;
+      margin: 1.5em auto;
+    }
 
+    footer article {
+      max-width: 30%;
+    }
   }

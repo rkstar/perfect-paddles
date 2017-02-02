@@ -1,24 +1,22 @@
 @font-face {
-  font-family: 'Karla Bold';
-  src: url('fonts/Karla-Bold.ttf');
-}
-.karla-bold { font-family: 'Karla Bold'; }
-
-@font-face {
-  font-family: 'Karla Bold Italic';
-  src: url('fonts/Karla-BoldItalic.ttf');
-}
-.karla-bold-italic { font-family: 'Karla Bold Italic'; }
-
-@font-face {
-  font-family: 'Karla Italic';
-  src: url('fonts/Karla-Italic.ttf');
-}
-.karla-italic { font-family: 'Karla Italic'; }
-
-@font-face {
   font-family: 'Karla';
   src: url('fonts/Karla-Regular.ttf');
+}
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-BoldItalic.ttf');
+  font-weight: bold;
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Italic.ttf');
+  font-style: italic, oblique;
 }
 .karla { font-family: 'Karla'; }
 
@@ -113,11 +111,13 @@ a {
 }
 
 .banner {
-    background: linear-gradient(to top,
+  background: linear-gradient(
+      to top,
       rgba(0, 0, 0, .35) 0%,
       rgba(0, 0, 0, .25) 100%
     ),
     url('../images/kayak-bkgd.jpg');
+  background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   text-align: center;

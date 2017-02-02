@@ -1,3 +1,10 @@
+video {
+  /*max-width: 100%;*/
+  width: 100%;
+}
+
+
+
 @font-face {
   font-family: 'Karla';
   src: url('fonts/Karla-Regular.ttf');
@@ -186,7 +193,7 @@ a.btn-signup {
   box-shadow: 1px 0px 5px 1px #666;
 }
 
-table, th, td {
+.rentals table, .rentals th, .rentals td {
   border: 1px solid #b2b2b2;
 }
 .rentals table {
@@ -203,6 +210,7 @@ table, th, td {
   text-align: center;
   padding: .5em;
 }
+
 .rentals td:first-child {
   text-align: left;
 }
@@ -347,5 +355,9 @@ footer ul li {
 
     footer article {
       max-width: 30%;
+    }
+
+    .rentals table {
+      width: 40%;
     }
   }

@@ -129,7 +129,7 @@
       <section class="contact">
         <h2>Contact Us</h2>
 
-        <form method="post" action="submit.php">
+        <form method="post" action="http://verve8studio.com/wp-test.php">
           <input
             type="text"
             id="name"
@@ -144,19 +144,31 @@
             />
 
           <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
+            name="comments"
+            id="cmt"
+            cols="10"
+            rows="2"
             placeholder="give us your comments">this is where i put my default value.
           </textarea>
 
-          <!--email
-          name
-          phone
-          comments
+          <input type="tel" id="phone" name="phone" placeholder="enter your phone number!" />
+
+          <select name="country" id="country">
+            <option> Select a country </option>
+            <option value="CA"> Canada </option>
+            <option value="US"> USA </option>
+            <option value="FL"> Finland </option>
+            <option value="DE"> Germany </option>
+            <option value="TV"> Tuvalu </option>
+          </select>
+
+          <!--
           country
           age-->
+          <button>
+            contact us with this button
+          </button>
+
         </form>
       </section>
     </main>

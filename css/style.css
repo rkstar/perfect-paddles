@@ -249,6 +249,38 @@ a:hover {
   display: none;
 }
 
+input {
+  font-family: 'Pacifico';
+  font-size: 2em;
+  color: rebeccapurple;
+  padding: .5em 1em;
+
+}
+
+input:focus, textarea:focus {
+  outline: 5px solid rebeccapurple;
+}
+
+textarea {
+  font-family: 'Karla';
+  padding: 1em;
+}
+
+button {
+  padding: 2em;
+  background-color: red;
+  color: white;
+  border: none;
+  box-shadow: 2px 5px black;
+}
+
+select {
+  font-family: 'Pacifico';
+  font-size: 2em;
+  color: goldenrod;
+  background-color: black;
+}
+
 
 /**
  * tablet breakpoint: 600px

@@ -251,14 +251,13 @@ a:hover {
 
 input {
   font-family: 'Pacifico';
-  font-size: 2em;
   color: rebeccapurple;
   padding: .5em 1em;
 
 }
 
 input:focus, textarea:focus {
-  outline: 5px solid rebeccapurple;
+  outline-color: rebeccapurple;
 }
 
 textarea {
@@ -271,7 +270,7 @@ button {
   background-color: red;
   color: white;
   border: none;
-  box-shadow: 2px 5px black;
+  box-shadow: 2px 5px 10px black;
 }
 
 select {

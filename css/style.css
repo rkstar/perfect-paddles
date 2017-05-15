@@ -39,7 +39,6 @@ body {
   line-height: 1.25em;
   box-sizing: border-box;
   color: #2d2d2d;
-  margin-top: 112px;
 }
 
 img {
@@ -64,6 +63,10 @@ header {
   background-color: black;
   text-align: center;
   padding-top: 10px;
+}
+
+.menu-offset {
+  margin-top: 112px;
 }
 
 .logo {

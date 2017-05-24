@@ -320,6 +320,7 @@ select {
      flex-shrink: 0;
      flex-basis: 0;
      justify-content: flex-end;
+     padding-right: 1em;
    }
 
    nav ul {
@@ -330,6 +331,11 @@ select {
 
    nav ul li {
      margin: 0 .5em;
+   }
+
+   a.anchor:before {
+     height: 55px;
+     margin-top: -55px;
    }
 
    footer {

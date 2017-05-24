@@ -57,8 +57,8 @@ h2 {
 }
 
 header {
-  /*position: fixed;*/
-  /*top: 0px;*/
+  position: fixed;
+  top: 0px;
   width: 100vw;
   background-color: black;
   text-align: center;
@@ -131,6 +131,14 @@ a {
 }
 a:hover {
   color: #b64036;
+}
+
+a.anchor:before {
+  display: block;
+  content: "";
+  height: 85px;
+  margin-top: -85px;
+  visibility: hidden;
 }
 
 .muted-text {
